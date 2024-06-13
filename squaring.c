@@ -28,6 +28,7 @@ int input(int *a, int *n, int *check) {
     printf("n/a\n");
     *check = 1;
   }
+  return 0;
 }
 void output(int *a, int n) {
   for (int i = 0; i < n; i++) {
